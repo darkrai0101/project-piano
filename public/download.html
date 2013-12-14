@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Download Page</title>
+</head>
+<body>
+   <ul>
+    <% for(var i=0; i<data.length; i++) { item = data[i]; %>
+       <li><a href="<%= item.link %>"/>download <%= item.name %></a></li>
+    <% } %>
+    </ul>
+</body>
+</html>

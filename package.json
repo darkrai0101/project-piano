@@ -1,0 +1,14 @@
+{
+  "author": "darkrai",
+  "name": "project-piano",
+  "version": "0.0.0",
+  "main": "project-piano.js",
+  "dependencies": {
+    "express": "~3.4.7"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
